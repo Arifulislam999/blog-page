@@ -7,7 +7,7 @@ const initialState = [
         author: "Arif",
         title: "How to use search engine optimization to drive sales.",
         time: "26 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const initialState = [
         author: "Sumit Saha",
         title: "How to write a Program ! Hello World",
         time: "6 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 7,
@@ -28,7 +28,7 @@ const initialState = [
         author: "Sagor Hasan",
         title: "How to write a Program ! Hello World",
         time: "6 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ const initialState = [
         author: "Sumit Saha",
         title: "Improve Your Customer Experience",
         time: "6 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 5,
@@ -49,7 +49,7 @@ const initialState = [
         author: "Alex Jhon",
         title: "Create a diagram and Make Sure How to Optimize Search Engine Optimazation.",
         time: "6 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
 
     {
@@ -60,7 +60,7 @@ const initialState = [
         author: "Jhon Dho",
         title: "How to use search engine optimization to drive sales.",
         time: "6 min read",
-        date: "18 Nov 2022",
+        date: new Date().toDateString(),
     },
 
     {
@@ -72,7 +72,7 @@ const initialState = [
         author: "Sumit Saha",
         title: "How to use search engine optimization to drive sales.",
         time: "05 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 8,
@@ -83,7 +83,7 @@ const initialState = [
         author: "Arif",
         title: "How to use search engine optimization to drive sales.",
         time: "6 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 9,
@@ -94,7 +94,7 @@ const initialState = [
         author: "Arif",
         title: "How to use search engine optimization to drive sales.",
         time: "34 min read",
-        date: "05 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 10,
@@ -104,7 +104,7 @@ const initialState = [
         author: "Sagor Hasan",
         title: "How to write a Program ! Hello World",
         time: "41 min read",
-        date: "15 Jan 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 11,
@@ -114,7 +114,7 @@ const initialState = [
         author: "Jhon Dho",
         title: "Improve Your Customer Experience",
         time: "16 min read",
-        date: "30 May 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 12,
@@ -124,7 +124,7 @@ const initialState = [
         author: "Jhon Dho",
         title: "How to setup a Computer by HDMI Cable",
         time: "47 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
 
     {
@@ -136,7 +136,7 @@ const initialState = [
         title: "How to use search engine optimization to drive sales.",
 
         time: "23 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 14,
@@ -146,7 +146,7 @@ const initialState = [
         author: "Jhon Dho",
         title: "How to setup a Computer by HDMI Cable",
         time: "52 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
     {
         id: 15,
@@ -156,7 +156,7 @@ const initialState = [
         author: "Jhon Dho",
         title: "Improve Your Customer Experience",
         time: "15 min read",
-        date: "01 Oct 2022",
+        date: new Date().toDateString(),
     },
 
     {
@@ -168,7 +168,7 @@ const initialState = [
         author: "Sumit Saha",
         title: "How to write a Program ! Hello World",
         time: "6 min read",
-        date: "15 jul 2022",
+        date: new Date().toDateString(),
     },
 ];
 export default initialState;

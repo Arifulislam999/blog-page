@@ -1,5 +1,5 @@
 import initialState from "../Components/initialState";
-import { VIEW } from "./ActionType";
+import { AUTHOR, VIEW } from "./ActionType";
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
@@ -7,7 +7,16 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
             };
-
+        case AUTHOR:
+            // return state.map((data) => {
+            //     if (data.title === action.payload) {
+            //         console.log(data.title);
+            //         return {
+            //             ...data,
+            //         };
+            //     }
+            // });
+            return state.filter((data) => data.author === action.payload);
         default:
             return state;
     }

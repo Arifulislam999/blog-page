@@ -34,8 +34,12 @@
     font-weight: bold;
     margin-top: 1px;
     margin-left: 4px;
+    cursor: pointer;
     /* text-align: justify; */
     /* text-align: center; */
+}
+.text:hover {
+    text-decoration: underline;
 }
 .box-2 img {
     width: 50px;
@@ -59,7 +63,8 @@
     font-size: 17px;
 }
 .date2 {
-    margin-right: 8px;
+    margin-right: 5px;
+    font-size: 15px;
 }
 .ser {
     margin-bottom: 10px;
@@ -83,4 +88,15 @@
 }
 body {
     background-color: rgb(156, 192, 192);
+}
+#lws {
+    width: 130px;
+}
+.name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.box-2 img {
+    cursor: pointer;
 }

@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { DebounceInput } from "react-debounce-input";
 import "./style.css";
+import { Title } from "../Redux/Action";
 function Template() {
     const dataBase = useSelector((state) => state);
 
     const [search, setSearch] = useState(null);
+    const dispatch = useDispatch();
     const searchHandler = (e) => {
         setSearch(e?.target?.value);
-        console.log(e.target.value);
     };
     // Debounce function
     // function debounce(fn, delay) {
@@ -26,9 +27,9 @@ function Template() {
     // }
     // const optimize = debounce(searchHandler, 2000);
     // console.log(search);
+
     const searchByKeyword = (tag) => {
         if (search === "" || search === null) {
-            console.log("arif");
             return tag;
         } else if (tag.title.toLowerCase().includes(search.toLowerCase())) {
             return tag;
@@ -38,6 +39,10 @@ function Template() {
             return tag;
         }
     };
+    const titleHandler = (author) => {
+        console.log(author);
+        dispatch(Title(author));
+    };
     return (
         <div>
             <div>
@@ -46,6 +51,7 @@ function Template() {
                         <div className="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3 items-center">
                             <a href="index.html">
                                 <img
+                                    id="lws"
                                     className="h-10"
                                     src="https://raw.githubusercontent.com/Learn-with-Sumit/think-in-a-redux-way/8f0d972d3ba07b8c7952074dcf2fed283f49def8/html_template/assets/lws.svg"
                                     alt="Learn with Sumit"
@@ -89,9 +95,11 @@ function Template() {
                                 </div>
                             </div>
                             <div className="box-2">
-                                <img src={data.author_img} alt="author" />
+                                <img onClick={() => titleHandler(data.author)} src={data.author_img} alt="author" />
                                 <div className="date">
-                                    <span className="name">{data.author}</span>
+                                    <span onClick={() => titleHandler(data.author)} className="name">
+                                        {data.author}
+                                    </span>
                                     <div>
                                         <span className="date2">{data.date}</span>
                                         <span>{data.time}</span>
