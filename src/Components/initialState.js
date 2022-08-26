@@ -77,8 +77,7 @@ const initialState = [
     {
         id: 8,
         img: "https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761__480.jpg",
-        author_img:
-            "https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=",
+        author_img: "https://images.pexels.com/photos/997217/pexels-photo-997217.jpeg?auto=compress&cs=tinysrgb&w=600",
         catagory: "computer",
         author: "Arif",
         title: "How to use search engine optimization to drive sales.",
@@ -88,8 +87,7 @@ const initialState = [
     {
         id: 9,
         img: "https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261__480.jpg",
-        author_img:
-            "https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=",
+        author_img: "https://images.pexels.com/photos/997217/pexels-photo-997217.jpeg?auto=compress&cs=tinysrgb&w=600",
         catagory: "computer",
         author: "Arif",
         title: "How to use search engine optimization to drive sales.",
@@ -166,6 +164,17 @@ const initialState = [
             "https://raw.githubusercontent.com/Learn-with-Sumit/think-in-a-redux-way/8f0d972d3ba07b8c7952074dcf2fed283f49def8/html_template/assets/lws.svg",
         catagory: "Learner",
         author: "Sumit Saha",
+        title: "How to write a Program ! Hello World",
+        time: "6 min read",
+        date: new Date().toDateString(),
+    },
+
+    {
+        id: 16,
+        img: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341__480.jpg",
+        author_img: "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600",
+        catagory: "Learner",
+        author: "Alex Jhon",
         title: "How to write a Program ! Hello World",
         time: "6 min read",
         date: new Date().toDateString(),
