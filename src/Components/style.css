@@ -8,7 +8,7 @@
     margin-left: 3px;
     border-radius: 9px;
 }
-.flex {
+.arif {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;

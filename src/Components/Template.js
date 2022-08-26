@@ -75,7 +75,7 @@ function Template() {
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="arif">
                 {dataBase.filter(searchByKeyword).map((data, index) => {
                     return (
                         <div key={index} className="box">
