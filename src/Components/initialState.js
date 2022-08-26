@@ -118,7 +118,7 @@ const initialState = [
         id: 12,
         img: "https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901__480.jpg",
         author_img: "https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=600",
-        catagory: "Computer Expart",
+        catagory: "A Freelancher",
         author: "Jhon Dho",
         title: "How to setup a Computer by HDMI Cable",
         time: "47 min read",
@@ -139,7 +139,7 @@ const initialState = [
     {
         id: 14,
         img: "https://cdn.pixabay.com/photo/2016/11/18/12/55/office-1834294__480.jpg",
-        author_img: "https://images.pexels.com/photos/452558/pexels-photo-452558.jpeg?auto=compress&cs=tinysrgb&w=600",
+        author_img: "https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=600",
         catagory: "Computer Expart",
         author: "Jhon Dho",
         title: "How to setup a Computer by HDMI Cable",
@@ -149,7 +149,7 @@ const initialState = [
     {
         id: 15,
         img: "https://cdn.pixabay.com/photo/2017/06/23/11/49/laptop-2434393__480.jpg",
-        author_img: "https://images.pexels.com/photos/325688/pexels-photo-325688.jpeg?auto=compress&cs=tinysrgb&w=600",
+        author_img: "https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=600",
         catagory: "Computer Expart",
         author: "Jhon Dho",
         title: "Improve Your Customer Experience",
