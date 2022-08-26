@@ -3,10 +3,10 @@
     /* height: 380px; */
 }
 .img img {
-    width: 98%;
+    width: 100%;
     height: 170px;
-    margin-left: 3px;
-    border-radius: 9px;
+    /* margin-left: 3px; */
+    border-radius: 3px;
 }
 .box-m {
     display: grid;
@@ -99,4 +99,18 @@ body {
 }
 .box-2 img {
     cursor: pointer;
+}
+@media only screen and (max-width: 780px) {
+    .box-m {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        background-color: azure;
+    }
+    #im {
+        left: 80%;
+    }
+    #inp {
+        width: 70%;
+    }
 }
