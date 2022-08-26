@@ -8,9 +8,9 @@
     margin-left: 3px;
     border-radius: 9px;
 }
-.arif {
+.box-m {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     background-color: azure;
 }
